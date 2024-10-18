@@ -1,13 +1,12 @@
 #s1{
-    background-color: rgb(0,11,71);
-    color: rgb(0, 11, 71);
+    background-color: rgba(0, 11, 71, 0.9);
+    color: rgb(0, 11, 71, 0.9);
 }
 h1{
     color: white;
     font-size: 300%;
     text-decoration: underline;
     text-align: center;
-    color:blanchedalmond ;
 }
 
 table {
@@ -15,8 +14,6 @@ table {
     
     background-color: whitesmoke;
     color: whitesmoke;
-    text-align: center;
-    opacity: 1;
     border: 50px ;
     border: blue;
     border-style:solid ;
@@ -27,5 +24,5 @@ table {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(14, 13, 13);
 }
