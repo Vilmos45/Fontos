@@ -19,8 +19,8 @@ table {
     border: 50px ;
     border: blue;
     border-style:solid ;
-    width: 555px ;
-    height: 555px;
+    width: 575px ;
+    height: 575px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,6 +28,3 @@ table {
 body {
     background-color: black;
 }
-
-
-
