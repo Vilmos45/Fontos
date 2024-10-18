@@ -6,19 +6,28 @@ h1{
     color: white;
     font-size: 300%;
     text-decoration: underline;
+    text-align: center;
 }
 
 table {
-
+    vertical-align: middle;
+    
     background-color: darkgray;
     color: darkgray;
     text-align: center;
     opacity: 1;
-    font-size: 750%;
-    
+    border: 50px ;
+    border: blue;
+    border-style:solid ;
+    width: 555px ;
+    height: 555px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     background-color: black;
 }
+
+
 
