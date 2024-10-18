@@ -1,0 +1,24 @@
+#s1{
+    background-color: darkslategray;
+    color: darkslategrey;
+}
+h1{
+    color: white;
+    font-size: 300%;
+    text-decoration: underline;
+}
+
+table {
+
+    background-color: darkgray;
+    color: darkgray;
+    text-align: center;
+    opacity: 1;
+    font-size: 750%;
+    
+}
+
+body {
+    background-color: black;
+}
+
