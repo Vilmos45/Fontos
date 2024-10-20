@@ -1,6 +1,6 @@
 #s1{
     background-color: rgba(0, 11, 71, 0.9);
-    color: rgb(0, 11, 71, 0.9);
+    color: rgb(0, 11, 71);
 }
 h1{
     color: white;
@@ -13,10 +13,8 @@ table {
     vertical-align: middle;
     background-color: whitesmoke;
     color: whitesmoke;
-    border: 50px ;
-    border: blue;
-    border-style:solid ;
-    width: 575px ;
+    border: 5px solid blue;
+    width: 575px;
     height: 575px;
     margin-left: auto;
     margin-right: auto;
