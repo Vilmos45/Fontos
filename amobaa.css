@@ -1,4 +1,4 @@
-#s1{
+#s1, #s3, #s5, #s7, #s9{
     background-color: rgba(0, 11, 71, 0.9);
     color: rgb(0, 11, 71);
 }
@@ -9,10 +9,13 @@ h1{
     text-align: center;
 }
 
-table {
-    vertical-align: middle;
+#s2, #s4, #s6, #s8 {
     background-color: whitesmoke;
     color: whitesmoke;
+}
+
+table{
+    vertical-align: middle;
     border: 5px solid blue;
     width: 575px;
     height: 575px;
