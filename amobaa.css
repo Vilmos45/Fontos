@@ -1,6 +1,9 @@
-#s1, #s3, #s5, #s7, #s9{
-    background-color: rgba(0, 11, 71, 0.9);
-    color: rgb(0, 11, 71);
+
+.terep{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     color: white;
@@ -13,6 +16,10 @@ h1{
     background-color: whitesmoke;
     color: whitesmoke;
 }
+#s1, #s3, #s5, #s7, #s9{
+    background-color: rgba(30, 34, 57, 0.9);
+    color: rgb(30, 34, 57, 1);
+}
 
 table{
     vertical-align: middle;
@@ -21,8 +28,26 @@ table{
     height: 575px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15cm;
+    position: absolute;
 }
-
+#háttér{
+    vertical-align: middle;
+}
+#X, #O{
+    font-size: x-large;
+    text-align: center;
+}
+#X{
+    color: red;
+}
+#O{
+    color: blue;
+}
 body {
+    vertical-align: middle;
     background-color: rgb(14, 13, 13);
+    justify-content: middle;
+    align-items: middle;
+    margin: 0;
 }
