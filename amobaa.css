@@ -1,53 +1,64 @@
-
-.terep{
+body {
+    background-color: rgb(14, 13, 13);
+    margin: 0;
+    cursor: default;
+}
+.terep {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     color: white;
     font-size: 300%;
     text-decoration: underline;
     text-align: center;
+    user-select: none;
 }
 
 #s2, #s4, #s6, #s8 {
     background-color: whitesmoke;
     color: whitesmoke;
 }
-#s1, #s3, #s5, #s7, #s9{
+
+#s1, #s3, #s5, #s7, #s9 {
     background-color: rgba(30, 34, 57, 0.9);
     color: rgb(30, 34, 57, 1);
 }
 
-table{
-    vertical-align: middle;
+table {
     border: 5px solid blue;
     width: 575px;
     height: 575px;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15cm;
-    position: absolute;
-}
-#háttér{
-    vertical-align: middle;
+    cursor: crosshair;
+    user-select: none;
 }
 #X, #O{
-    font-size: x-large;
+    font-size: 750%;
     text-align: center;
+    color: rgba(245, 245, 220, 0);
 }
-#X{
+/** /
+#X {
     color: red;
 }
-#O{
+
+#O {
     color: blue;
 }
-body {
-    vertical-align: middle;
-    background-color: rgb(14, 13, 13);
-    justify-content: middle;
-    align-items: middle;
-    margin: 0;
+    /**/
+
+
+/** /
+.info {
+    display: none;
+    font-size: 500%;
+    color: #000;
 }
+    /**/
