@@ -1,48 +1,73 @@
 body {
     background-color: rgb(14, 13, 13);
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.terep {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#jön {
+    color: wheat;
+    font-size: 200%;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    user-select: none;
+    display: none; 
 }
 
 h1 {
     color: white;
-    font-size: 275%;
-    /*text-decoration: underline;*/
     text-align: center;
     user-select: none;
-    margin: auto;
     margin-top: 1px;
+    display: none;
 }
 
-table {
-    border: 2px solid whitesmoke;
+#kezdőlap {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+h2 {
+    user-select: none;
+}
+
+#sp, #lm {
+    margin: 5px;
+    font-size: 75px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 5px solid #1504aa;
+}
+
+#pálya {
     width: 621px;
     height: 621px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 560px;
+    table-layout: fixed; 
     cursor: crosshair;
     user-select: none;
     font-size: 750%;
     text-align: center;
-    vertical-align: middle;
     color: black;
-    border-collapse: initial;
-    padding: 0px;
-    table-layout: fixed;
+    border-spacing: 2px; 
+    border: 2px solid whitesmoke;
+    margin: 0;
+    display: none;
 }
 
 td {
     height: 207px;
     width: 207px;
-    table-layout: fixed;
+    border: 1px solid #1e2239; 
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
 }
 
 .vil {
@@ -52,8 +77,4 @@ td {
 .söt {
     background-color: rgb(30, 34, 57);
 }
-#jön{
-    color:wheat ;
-    font-size: 200%;
-    margin: 0px;
-}
+
