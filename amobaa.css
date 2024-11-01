@@ -24,8 +24,8 @@ h1 {
 }
 
 #s1, #s3, #s5, #s7, #s9 {
-    background-color: rgba(30, 34, 57, 0.9);
-    color: rgb(30, 34, 57, 1);
+    background-color: rgba(30, 34, 57);
+    color: rgb(30, 34, 57);
 }
 
 table {
@@ -40,11 +40,13 @@ table {
     user-select: none;
 }
 #X, #O{
+    display: none;
     font-size: 750%;
     text-align: center;
-    color: rgba(245, 245, 220, 0);
+    background-color: rgba(0,0,0,0);
+    
 }
-/** /
+
 #X {
     color: red;
 }
@@ -52,13 +54,16 @@ table {
 #O {
     color: blue;
 }
-    /**/
 
-
-/** /
-.info {
-    display: none;
-    font-size: 500%;
-    color: #000;
+#s2, #s4, #s6, #s8 {
+    background-color: whitesmoke;
+    color: whitesmoke;
 }
-    /**/
+
+#s1, #s3, #s5, #s7, #s9 {
+    background-color: rgba(30, 34, 57);
+    color: rgb(30, 34, 57);
+}
+.info{
+display: none;
+}
