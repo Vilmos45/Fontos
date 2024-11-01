@@ -2,6 +2,7 @@ body {
     background-color: rgb(14, 13, 13);
     margin: 0;
 }
+
 .terep {
     position: relative;
     display: flex;
@@ -11,39 +12,48 @@ body {
 
 h1 {
     color: white;
-    font-size: 300%;
-    text-decoration: underline;
+    font-size: 275%;
+    /*text-decoration: underline;*/
     text-align: center;
     user-select: none;
+    margin: auto;
     margin-top: 1px;
-    margin-bottom: auto;
 }
 
 table {
-    border: 5px solid blue;
-    width: 620px;
-    height: 620px;
+    border: 2px solid whitesmoke;
+    width: 621px;
+    height: 621px;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 635px;
+    margin-top: 560px;
     cursor: crosshair;
     user-select: none;
-    table-layout: fixed;
-    border-collapse:initial;
-    padding: 0px;
-
     font-size: 750%;
     text-align: center;
     vertical-align: middle;
     color: black;
+    border-collapse: initial;
+    padding: 0px;
+    table-layout: fixed;
 }
 
+td {
+    height: 207px;
+    width: 207px;
+    table-layout: fixed;
+}
 
-.light{
+.vil {
     background-color: whitesmoke;
 }
 
-.dark{
-    background-color: rgba(30, 34, 57);
+.söt {
+    background-color: rgb(30, 34, 57);
+}
+#jön{
+    color:wheat ;
+    font-size: 200%;
+    margin: 0px;
 }
