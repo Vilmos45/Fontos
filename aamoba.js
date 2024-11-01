@@ -19,16 +19,15 @@ s1.addEventListener("click", function() {
           }
 }
 });
-/**/
+/** /
 const s1 = document.getElementById("s1");
 const jön = document.getElementById("jön"); // Get output element
 let jatekos = 1;
-jön.textContent = "";
 
 s1.addEventListener("click", function() {
     if (jatekos === 10) {
-        jön.textContent = "";
-        alert("A játéknek vége van");
+        jön.textContent = "Játék vége!";
+        alert("A játéknek vége van.");
         return;
     }
     
@@ -43,3 +42,22 @@ s1.addEventListener("click", function() {
         jatekos++;
     }
 });
+/**/
+const cells = document.querySelectorAll(".click");
+let currentPlayer = "X";
+const statusDisplay = document.getElementById("jön");
+
+cells.forEach(cell => {
+  cell.addEventListener("click", function () {
+    // Ellenőrizd, hogy a cella üres-e
+    if (cell.textContent === "") {
+      cell.textContent = currentPlayer;
+      cell.style.color = currentPlayer === "X" ? "red" : "blue";
+      
+      // Játékos váltása
+      currentPlayer = currentPlayer === "X" ? "O" : "X";
+      statusDisplay.textContent = currentPlayer === "X" ? "A piros játékos jön!" : "A kék játékos jön!";
+    }
+  });
+});
+/**/
