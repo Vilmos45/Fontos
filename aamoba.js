@@ -3,6 +3,7 @@ let currentPlayer = "O";
 const statusDisplay = document.getElementById("jön");
 
 statusDisplay.textContent = "A kék játékos jön!";
+statusDisplay.style.color = "blue";
 
 cells.forEach(cell => {
   cell.addEventListener("click", function () {
@@ -16,7 +17,7 @@ cells.forEach(cell => {
 
       const dotInterval = setInterval(() => {
         // A pontok színét a háttér színére állítjuk
-        statusDisplay.style.color = "rgb(14, 13, 13)";  
+        statusDisplay.style.color = "rgb(245, 245, 245)";  
         dots = (dots + 1) % 4; // 0-3 között váltakozik
         statusDisplay.textContent = ".".repeat(dots); // Megjeleníti a pontokat
       }, 334);
