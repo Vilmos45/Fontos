@@ -49,9 +49,9 @@ cells.forEach(cell => {
           statusDisplay.style.color = currentPlayer === "X" ? "red" : "blue"; 
 
           if (isGameOver()) {
-            statusDisplay.textContent = "A játék véget ért!";
+            statusDisplay.textContent = "Döntetlen!";
             statusDisplay.style.color = "whitesmoke"; 
-            alert("A játéknak vége! A pálya betelt.");
+            alert("A játéknak vége! A pálya betelt, ezért döntetlen.");
           } else {
             isActive = true;
           }

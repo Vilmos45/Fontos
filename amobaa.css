@@ -16,13 +16,16 @@ body {
     left: 20px;
     user-select: none;
     display: none; 
+    margin: 0px;
 }
 
 h1 {
     color: white;
     text-align: center;
     user-select: none;
-    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 300%;
     display: none;
 }
 
@@ -76,5 +79,4 @@ td {
 
 .söt {
     background-color: rgb(30, 34, 57);
-}
-
+} 
